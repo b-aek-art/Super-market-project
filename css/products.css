@@ -57,3 +57,44 @@
     border: 1px solid rgba(218, 227, 229, 0.2);
 }
 
+/*navigation styles*/
+
+.navigation {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+
+}
+
+.navigation_btns {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0A2E10;
+    color: #2ecc71;
+    border-radius: 50px;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+}
+.navigation_btns:hover {
+      padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #0A2E10;
+    border-radius: 50px;
+    transition: 600ms;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+
+}
+
+.navigation_btns :focus {
+     padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+    
+}

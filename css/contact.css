@@ -1,59 +1,150 @@
  /*css reset*/
  * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
-
-/*general styles*/
-.body {
-    font-family:'Franklin Gothic Medium', Arial;
-    font-size: 1.5rem;
-    background-color: #000; 
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
  }
 
-/*header styles*/
 
-.header {
-    display: flex;
-    padding: 10px;
-    background-color: rgba(7, 23, 25,1);
-    border-bottom: 1px solid rgba(218, 227, 229, 0.2);
+ /*general styles*/
+ .body {
+     font-family:'Franklin Gothic Medium', Arial;
+     font-size: 1.5rem;
+     background-color: #000;
+ }
+
+ /*header styles*/
+ .header {
+     display: flex;
+     padding: 10px;
+     background-color: rgba(7, 23, 25, 1);
+     border-bottom: 1px solid rgba(218, 227, 229, 0.2);
+     align-items: center;
+     justify-content: space-between;
  }
 
  /*header logo*/
-
  .logo {
-    font-family:Georgia, serif;
-    display: ;
-    padding: 10px;
-    text-decoration: none;
-    background-color: black;
-    color: #2ecc71;
-    border-radius: 50px;
-    text-shadow:0px 0px 10px #2ecc71 ;
-    border: 1px solid rgba(218, 227, 229, 0.2);
+     font-family: Georgia, serif;
+     padding: 10px;
+     text-decoration: none;
+     background-color: black;
+     color: #2ecc71;
+     border-radius: 50px;
+     text-shadow: 0px 0px 10px #2ecc71;
+     border: 1px solid rgba(218, 227, 229, 0.2);
+ }
 
-}
-.logo:hover {
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #2ecc71;
-    color: #0A2E10;
-    border-radius: 50px;
-    transition: 600ms;
-    border: 1px solid rgba(218, 227, 229, 0.2);
-}
-.logo:focus {
-    padding: 10px;
-    text-decoration: none;
-    display: inline-block;
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 50px;
-    border: 1px solid rgba(218, 227, 229, 0.2);
-}
+ .logo:hover {
+     padding: 10px;
+     text-decoration: none;
+     display: inline-block;
+     background-color: #2ecc71;
+     color: #0A2E10;
+     border-radius: 50px;
+     transition: 600ms;
+     border: 1px solid rgba(218, 227, 229, 0.2);
+ }
+
+ /*navigation styles*/
+ .navigation {
+     display: inline-block;
+     text-align: center;
+ }
+
+ .navigation {
+     list-style: none;
+     display: flex;
+     gap: 10px;
+     margin-right: 20px;
+ }
+
+ .navigation_btns {
+     display: inline-block;
+     padding: 10px 20px;
+     text-decoration: none;
+     background-color: #0A2E10;
+     color: #2ecc71;
+     border-radius: 50px;
+     border: 1px solid rgba(218, 227, 229, 0.2);
+     transition: 600ms;
+ }
+
+ .navigation_btns:hover {
+     background-color: #2ecc71;
+     color: #0A2E10;
+ }
+
+ /*contact section*/
+ .contact-section {
+     max-width: 1200px;
+     margin: 80px auto;
+     padding: 0 20px;
+     text-align: center;
+ }
+
+ .contact-heading {
+     font-family: Georgia, serif;
+     font-size: 3rem;
+     color: #2ecc71;
+     margin-bottom: 15px;
+     text-shadow: 0px 0px 10px rgba(46, 204, 113, 0.5);
+ }
+
+ .contact-container {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     flex-wrap: wrap;
+ }
+
+ .contact-card {
+     background-color: rgba(7, 23, 25, 0.7);
+     border: 1px solid rgba(218, 227, 229, 0.2);
+     border-radius: 20px;
+     padding: 40px 30px;
+     width: 300px;
+     text-decoration: none;
+     color: #DAE3E5;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     backdrop-filter: blur(10px);
+ }
+
+ .contact-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+     border-color: #2ecc71;
+ }
+
+ .contact-icon {
+     font-size: 4rem;
+     color: #2ecc71;
+     margin-bottom: 20px;
+     transition: transform 0.3s ease;
+ }
+
+ .contact-card:hover .contact-icon {
+     transform: scale(1.2);
+ }
+
+ .contact-title {
+     font-family: Georgia, serif;
+     font-size: 1.8rem;
+     color: #2ecc71;
+     margin-bottom: 10px;
+ }
+
+ .contact-desc {
+     color: #DAE3E5;
+     font-size: 1rem;
+     line-height: 1.5;
+ }
+
+ /*footer styles*/
+ .footer {
+ }
 
