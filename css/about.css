@@ -1,0 +1,81 @@
+ /*css reset*/
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/*general styles*/
+.body {
+    font-family:'Franklin Gothic Medium', Arial;
+    font-size: 1.5rem;
+    background-color: #000; 
+ }
+
+/*header styles*/
+
+.header {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(7, 23, 25,1);
+    border-bottom: 1px solid rgba(218, 227, 229, 0.2);
+ }
+
+ /*header logo*/
+
+ .logo {
+    font-family:Georgia, serif;
+    display: ;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: #2ecc71;
+    border-radius: 50px;
+    text-shadow:0px 0px 10px #2ecc71 ;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+
+}
+.logo:hover {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #0A2E10;
+    border-radius: 50px;
+    transition: 600ms;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+}
+.logo:focus {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid rgba(218, 227, 229, 0.2);
+}
+
+.main {
+    display: flex;
+}
+
+.h1 {
+    border-radius: 50px;
+    background-color: rgba(7, 23, 25,1);
+    color: #2ecc71;
+    padding : 15px ;
+    margin :auto ;    
+}
+
+.map {
+    border: 1px solid rgba(218, 227, 229, 0.2);
+    border-radius: 50px;
+    width: 400px; 
+    height: 400px; 
+    border:0;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: auto;
+}
