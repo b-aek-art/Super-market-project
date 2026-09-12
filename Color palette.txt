@@ -1,0 +1,13 @@
+font (font-family: Andale Mono, monospace;)
+
+
+green-darkblue  rgba(7, 23, 25, 0.6)
+
+dark green  #0A2E10
+
+light green #2ecc71
+
+black #000
+
+white #DAE3E5
+
